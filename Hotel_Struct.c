@@ -11,6 +11,7 @@ struct hospede {
     
 };
 
+//Ao invez de você declarar uma estrutura global você pode manipular o endereço de memória com ponteiro.
 struct hospede reservas[30][8];
 
 void Inicializar(){
